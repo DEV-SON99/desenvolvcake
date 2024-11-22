@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+.topo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+.imgHeader {
+    width: 42px;
+    height: 42px;
+}
+
+.btnVoltar {
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+.btnVoltar:hover {
+    color: #007bff;
+}
+
+.orientation {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    gap: 20px;
+
+}
+
+button {
+    cursor: pointer;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.btnItem {
+    position: relative;
+    border-bottom-right-radius: 14px;
+    border-bottom-left-radius: 14px;
+}
+
+#btnAdd {
+    font-size: 25px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translateX(-50%);
+}
+
+.textDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    color: white;
+    padding: 5px;}
+
+.btnImg {
+    width: 250px;
+    height: 200px;
+}
+
+.divBtn {
+    display: flex;
+    justify-content: center;
+    margin: 5rem;
+}
+   
+.divBtn button {
+    font-size: 20px;
+    padding: 10px 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+
+}
+
+
+
+
+/* TRABALHANDO COM O RODAPÉ */
+
+.rodape {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #000;
+    padding: 10px;
+  }
+  
+  .icones {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .icones button {
+    background-color: transparent;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+    color: white;
+  }
